@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="display">
+            <input type="text" class="inp-num" disabled>
+        </div>
+        <button class="clear" onclick="delAllSimbol()">C</button>
+        <button class="operation devide" onclick="addSymbolToInput('/')">÷</button>
+        <button onclick="addSymbolToInput('7')">7</button>
+        <button onclick="addSymbolToInput('8')">8</button>
+        <button onclick="addSymbolToInput('9')">9</button>
+        <button class="operation" onclick="addSymbolToInput('*')">x</button>
+        <button onclick="addSymbolToInput('4')">4</button>
+        <button onclick="addSymbolToInput('5')">5</button>
+        <button onclick="addSymbolToInput('6')">6</button>
+        <button class="operation" onclick="addSymbolToInput('-')">-</button>
+        <button onclick="addSymbolToInput('1')">1</button>
+        <button onclick="addSymbolToInput('2')">2</button>
+        <button onclick="addSymbolToInput('3')">3</button>
+        <button class="operation" onclick="addSymbolToInput('+')">+</button>
+        <button onclick="addSymbolToInput('.')">.</button>
+        <button onclick="addSymbolToInput('0')">0</button>
+        <button class="delete" onclick=" delSimbole()"><img src="img/ Icon.svg" alt=""></button>
+        <button class="result" onclick="result('=')">=</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
